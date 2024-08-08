@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    /* hace que el padding este dentro de la caja */
+}
+
+body {
+    margin: 0;
+}
+
+/* --------------------------------------------- */
+
+/* JERARQUIA POR SELECTORES CSS: ID > CLASS > TIPO O ETIQUETA */
+
+/* --------------------------------------------- */
+div {
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-family: Verdana;
+    margin: 20px;
+    /* text-align: center;
+    line-height: 300px; */
+}
+
+/* selector por CLASE */
+.grande {
+    width: 600px;
+    height: 600px;
+
+}
+
+/* Selector por ID */
+
+/* PROPIEDAD CSS BORDER */
+#caja-1 {
+    background-color: orange;
+    /*  margin-bottom: 50px; */
+    padding: 20px;
+
+
+    border-width: 10px;
+    /* Ancho de borde TRBL */
+    border-style: solid;
+    /*    
+    border-style: dashed;
+    border-style: double;
+    border-style: groove;
+     */
+    border-color: magenta;
+
+
+
+
+
+}
+/* PROPIEDAD BACKGROUND (FONDO)  */
+
+#caja-2 {
+    background-color: navy;
+width: 800px;
+height: 600px ;
+color: cyan;
+background-image: url('https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_linux-256.png');
+background-repeat: no-repeat;
+background-position: center top;
+
+}
+/* PROPIEDAD CSS Backgound múltiple (Fondos múltiples)  */
+
+#caja-3 {
+    background-color: cornflowerblue;
+
+    width: 800px;
+    height: 800px;
+
+
+}

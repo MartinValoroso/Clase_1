@@ -1,0 +1,13 @@
+div {
+    width: 300px;
+    height: 300px;
+}
+
+section div {
+    background-color: coral;
+
+}
+
+article div {
+    background-color: orange;
+}
